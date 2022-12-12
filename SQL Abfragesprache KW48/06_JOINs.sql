@@ -72,3 +72,6 @@ CROSS JOIN Orders
 SELECT * FROM Orders
 CROSS JOIN [Order Details]
 
+
+--Übung: Alle Produkte (Name des Produkts) ausgeben, die Kunde 'ALFKI' bisher gekauft hat
+

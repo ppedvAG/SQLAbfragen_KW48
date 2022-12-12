@@ -49,6 +49,13 @@ ORDER BY Quantity
 SELECT TOP 50 * FROM [Order Details]
 ORDER BY Quantity DESC
 
+SELECT TOP 30 PERCENT * FROM Orders
+--Zeigt die obersten X-% an
+
+SELECT TOP 10 PERCENT WITH TIES * FROM Orders
+ORDER BY Freight
+--WITH Ties gibt auch "Gleichstände" aus
+
 --DISTINCT: löscht Duplikate im Ergebnis;
 --Wichtig: ALLE Spalten müssen identisch sein
 SELECT DISTINCT Country FROM Customers
