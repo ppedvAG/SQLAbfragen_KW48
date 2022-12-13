@@ -33,7 +33,7 @@ join Products as p on od.ProductID = p.ProductID
 group by
 c.CompanyName,
 o.OrderID
-) t
+) as t
 --Im FROM brauchen Subqueries ein ALIAS! Keine Tabelle ohne Namen!
 
 

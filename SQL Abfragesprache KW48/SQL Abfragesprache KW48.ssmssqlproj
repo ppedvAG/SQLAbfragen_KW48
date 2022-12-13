@@ -109,6 +109,54 @@
           <AssociatedConnUserName />
           <FullPath>15_Tag3.sql</FullPath>
         </FileNode>
+        <FileNode Name="16_Views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_Views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_Variablen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_Variablen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18_WHILE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18_WHILE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19_Procedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19_Procedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_BULK.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_BULK.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21_CURSOR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21_CURSOR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22_OVER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22_OVER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="23_Functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TRAINER10-NS2:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TRAINER10-NS2</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>23_Functions.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">

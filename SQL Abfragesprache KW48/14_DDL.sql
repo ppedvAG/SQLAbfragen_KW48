@@ -114,3 +114,15 @@ INSERT INTO Fuhrpark
 VALUES (4, 'BMW', getdate(), 'Blau')
 
 
+--UPDATE mit CASE
+
+UPDATE Orders
+SET Freight = 
+CASE
+	WHEN Freight < 50 THEN Freight*1.2
+	WHEN Freight BETWEEN 50 AND 100 THEN Freight*1.1
+	ELSE Freight
+END
+
+SELECT Freight FROM Orders
+

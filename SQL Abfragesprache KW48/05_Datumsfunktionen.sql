@@ -24,3 +24,17 @@ SELECT datename(weekday, getdate())
 year(), month(), day(), quarter()
 SELECT year(orderdate) FROM Orders
 
+
+
+--Datentypen umwandeln in einer Abfrage
+
+SELECT CAST(Freight as decimal(10,2)) FROM Orders
+SELECT CAST(Freight as int) FROM Orders
+SELECT CAST(CompanyName as int) FROM Customers
+SELECT CAST(OrderDate as varchar(40)) FROM Orders
+
+SELECT CAST(OrderDAte as date) FROM Orders
+
+SELECT CONVERT(varchar(20), OrderDate, 103) FROM Orders
+--mit CONVERT kann ein Datum vom US Format in anderen Formaten ausgegeben werden (103 bspw. European)
+
